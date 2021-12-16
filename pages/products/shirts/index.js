@@ -1,16 +1,16 @@
 import Link from 'next/link'
 import styles from '../../../styles/Pants.module.css';
 
-export default function Pants() {
+export default function Shirts() {
   return (
     <div className={styles.container}>
-      <h1>Calças</h1>
+      <h1>Camisas</h1>
       <section className={styles.section}>
-        <Link href="/products/pants/redpant">
-          <a className={styles.botao}>Calça Vermelha</a>
+        <Link href="/products/shirts/redshirt">
+          <a className={styles.botao}>Camisa Vermelha</a>
         </Link>
-        <Link href="/products/pants/bluepant">
-          <a className={styles.botao}>Calça azul</a>
+        <Link href="/products/shirts/blueshirt">
+          <a className={styles.botao}>Camisa azul</a>
         </Link>
         <Link href="/products">
           <a className={styles.botao}>Voltar</a>
