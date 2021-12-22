@@ -1,9 +1,14 @@
 import Link from 'next/link'
 import styles from '../../../styles/Pants.module.css';
+import Head from 'next/head'
 
 export default function Shirts() {
   return (
-    <div className={styles.container}>
+    <>
+      <Head>
+        <title>Camisas</title>
+      </Head>
+      <div className={styles.container}>
       <h1>Camisas</h1>
       <section className={styles.section}>
         <Link href="/products/shirts/redshirt">
@@ -17,5 +22,6 @@ export default function Shirts() {
         </Link>
       </section>
     </div>
+    </>
   );
 }

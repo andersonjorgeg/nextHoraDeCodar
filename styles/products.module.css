@@ -1,0 +1,14 @@
+.container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.container ul li {
+  margin-right: 1em;
+}
+
+.container ul li a {
+  color: #000;
+}

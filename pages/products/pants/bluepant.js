@@ -1,9 +1,14 @@
 import Link from 'next/link'
-
 import styles from '../../../styles/Pants.module.css';
+import Head from 'next/head'
+
 export default function BluePant() {
   return (
-    <div className={styles.container}>
+    <>
+      <Head> 
+        <title>Calça azul</title>
+      </Head>
+      <div className={styles.container}>
         <h1>Calça azul - R$99,99</h1>
       <section className={styles.section}>
         <Link href="/products/pants">
@@ -11,5 +16,6 @@ export default function BluePant() {
         </Link>
       </section>
     </div>
+    </>
   ); 
 }

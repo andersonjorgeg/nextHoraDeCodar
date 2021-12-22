@@ -20,6 +20,11 @@ export const Navbar = () => {
             <a>Sobre</a>
           </Link>
         </li>
+        <li>
+          <Link href="/contact">
+            <a>Contato</a>
+          </Link>
+        </li>
       </ul>
     </>
   )
