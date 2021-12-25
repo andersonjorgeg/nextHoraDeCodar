@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../../styles/products.module.css';
+import styles from '../../styles/Products.module.css';
 import Head from 'next/head'
 
 export default function Products() {
